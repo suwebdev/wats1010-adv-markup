@@ -9,32 +9,35 @@
 </head>
 <body>
     <header>
-        <h1>Sonnet: to Science</h1>
+        <h1><a href="index.html">Sonnet: to Science</a></h1>
         <nav><!-- TODO: Link pages properly -->
             <ul class="top-nav"><!-- TODO: Make this list be a horizontal navigation -->
-                <li><a href="">Home</a></li>
-                <li><a href="" class="active">About Poe</a></li>
-                <li><a href="">Interpretation</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-poe.html" class="active">About Poe</a></li>
+                <li><a href="interpretation.html">Interpretation</a></li>
             </ul>
         </nav>
     </header>
     <aside id="sidebar"><!-- TODO: Make sidebar float right. -->
         <h2>Bio Stats</h2>
         <!-- TODO: Use a definition list to format the information below -->
-        Born:
-            January 19, 1809
-        Died:
-            October 7, 1849
-        Alma Mater:
-            University of Virginia
-        Spouse:
-            Virginia Eliza Clemm Poe
+        <dl class="defination">
+		<dt>
+		Born:</dt>
+        <dd>    January 19, 1809</dd>
+        <dt>Died:</dt>
+            <dd>October 7, 1849</dd>
+        <dt>Alma Mater:</dt>
+        <dd>University of Virginia</dd>
+        <dt>Spouse:</dt>
+        <dd>    Virginia Eliza Clemm Poe</dd>
+			</dl>
 
         <h2>Share This!</h2>
-        <ul>
-            <li><a class="twitter" href="http://twitter.com">Twitter</a></li>
-            <li><a class="facebook" href="http://facebook.com">Facebook</a></li>
-            <li><a class="pinterest" href="http://pinterest.com">Pinterest</a></li>
+        <ul class="buttons">
+            <li><img src="twitter.png"><a class="twitter" href="http://twitter.com">Twitter</img></a></li>
+            <li><img src="facebook.png"><a class="facebook" href="http://facebook.com">Facebook</img></a></li>
+            <li><img src="pinterest.png"><a class="pinterest" href="http://pinterest.com">Pinterest</img></a></li>
         </ul>
     </aside>
     <section id="content">
@@ -43,13 +46,13 @@
         using in-page anchors (aka bookmark links). -->
         <h2>Biographical Summary</h2>
         <p class="bio-photo">
-            <!-- TODO: Float this photo to the left of the 
+            <!-- TODO: Float this photo to the left of the
             page, and give this paragraph a visual style to set off the photo
             and caption. -->
             <img src="Edgar_Allan_Poe_daguerreotype_crop.png" alt="Edgar Allan Poe"><br>
-            Daguerreotype of Edgar Allan Poe, known as the "Annie" Daguerreotype
+            <figcaption class="caption">Daguerreotype of Edgar Allan Poe, known as the "Annie" Daguerreotype</figcaption>
         </p>
-        <p>Edgar Allan Poe (born Edgar Poe; January 19, 1809 – October 7, 1849) was an American author, poet, editor, and literary critic, considered part of the American Romantic Movement. Best known for his tales of mystery and the macabre, Poe was one of the earliest American practitioners of the short story, and is generally considered the inventor of the detective fiction genre. He is further credited with contributing to the emerging genre of science fiction.[1] He was the first well-known American writer to try to earn a living through writing alone, resulting in a financially difficult life and career.[2]</p>
+        <p>Edgar Allan Poe <a href="smalltext">(born Edgar Poe; January 19, 1809 – October 7, 1849)[1]</a> was an American author, poet, editor, and literary critic, considered part of the American Romantic Movement. Best known for his tales of mystery and the macabre, Poe was one of the earliest American practitioners of the short story, and is generally considered the inventor of the detective fiction genre. He is further credited with contributing to the emerging genre of science fiction.[1] He was the first well-known American writer to try to earn a living through writing alone, resulting in a financially difficult life and career.[2]</p>
 
         <p>Born in Boston, Poe was the second child of two actors. His father abandoned the family in 1810, and his mother died the following year. Thus orphaned, the child was taken in by John and Frances Allan, of Richmond, Virginia. Although they never formally adopted him, Poe was with them well into young adulthood. Tension developed later as John Allan and Edgar repeatedly clashed over debts, including those incurred by gambling, and the cost of secondary education for the young man. Poe attended the University of Virginia for one semester but left due to lack of money. Poe quarreled with Allan over the funds for his education and enlisted in the Army in 1827 under an assumed name. It was at this time his publishing career began, albeit humbly, with an anonymous collection of poems, Tamerlane and Other Poems (1827), credited only to "a Bostonian". With the death of Frances Allan in 1829, Poe and Allan reached a temporary rapprochement. Later failing as an officer's cadet at West Point and declaring a firm wish to be a poet and writer, Poe parted ways with John Allan.</p>
 
@@ -65,17 +68,56 @@
                 the Wikipedia entry for Edgar Allan Poe</a>.
         </p>
         <h2>Selected Works</h2>
-        <table id="selected_works">
-            <!-- TODO: Create an accessible <table> structure here representing the
-            the provided table of information in poe_selected_works.pdf. -->
-        </table>
+        <table id="selected_works" border="5">
+<tr class="th">
+<td class="one">Year
+</td>
+<td class="two">Format
+</td>
+<td class="three">Title
+</td>
+</tr>
+<tr>
+<td class="one">1845</td>	<td class="two">story</td>	<td class="three">"The Black Cat" </td></tr>
+<td class="one">1846</td>	<td class="two">story</td>	<td class="three">"The Cask of Amontillado"</td></tr>
+<td class="one">1845</td>	<td class="two">story</td>	<td class="three">"A Descent into the Maelstrom"</td></tr>
+<td class="one">1845</td>	<td class="two">story</td>	<td class="three">"The Facts in the Case of M. Valdemar"</td></tr>
+<td class="one">1839</td>	<td class="two">story</td>	<td class="three">"The Fall of the House of Usher"</td></tr>
+<td class="one">1843</td>	<td class="two">story</td>	<td class="three">"The Gold-Bug"</td></tr>
+<td class="one">1845</td>	<td class="two">story</td>	<td class="three">"Hop-Frog"</td></tr>
+<td class="one">1850</td>	<td class="two">story</td>	<td class="three">"The Imp of the Perverse"</td></tr>
+<td class="one">1838</td>	<td class="two">story</td>	<td class="three">"Ligeia"</td></tr>
+<td class="one">1850</td>	<td class="two">story</td>	<td class="three">"The Masque of the Red Death"</td></tr>
+<td class="one">1841</td>	<td class="two">story</td>	<td class="three">"The Murders in the Rue Morgue"</td></tr>
+<td class="one">1850</td>	<td class="two">story</td>	<td class="three">"The Oval Portrait"</td></tr>
+<td class="one">1850</td>	<td class="two">story</td>	<td class="three">"The Pit and the Pendulum"</td></tr>
+<td class="one">1850</td>	<td class="two">story</td>	<td class="three">"The Premature Burial"</td></tr>
+<td class="one">1845</td>	<td class="two">story</td>	<td class="three">"The Purloined Letter"</td></tr>
+<td class="one">1856</td>	<td class="two">story</td>	<td class="three">"The System of Doctor Tarr and Professor Fether"</td></tr>
+<td class="one">1850</td>	<td class="two">story</td>	<td class="three">"The Tell-Tale Heart"</td></tr>
+<td class="one">1849</td>	<td class="two">poem</td>	<td class="three">"Annabel Lee"</td></tr>
+<td class="one">1849</td>	<td class="two">poem</td>	<td class="three">"The Bells"</td></tr>
+<td class="one">1831</td>	<td class="two">poem</td><td class="three">"The City in the Sea"</td></tr>
+<td class="one">1843</td>   <td class="two">poem</td>	<td class="three">"The Conqueror Worm"</td></tr>
+<td class="one">1850</td>	<td class="two">poem</td>	<td class="three">"A Dream Within a Dream"</td></tr>
+<td class="one">1849</td>	<td class="two">poem</td>	<td class="three">"Eldorado"</td></tr>
+<td class="one">1839</td>	<td class="two">poem</td>	<td class="three">"The Haunted Palace"</td></tr>
+<td class="one">1845</td>	<td class="two">poem</td>	<td class="three">"The Raven"</td></tr>
+<td class="one">1835</td>	<td class="two">play</td>	<td class="three">Politian ()</td></tr>
+<td class="one">1838</td>	<td class="two">novel</td>	<td class="three">The Narrative of Arthur Gordon Pym of Nantucket ()</td></tr>
+<td class="one">1844</td>	<td class="two">hoax</td>	<td class="three">"The Balloon-Hoax" ()</td></tr>
+<td class="one">1846</td>	<td class="two">essay</td>	<td class="three">"The Philosophy of Composition"</td></tr>
+<td class="one">1848</td>	<td class="two">essay</td>	<td class="three">Eureka: A Prose Poem</td></tr>
+<td class="one">1848</td>	<td class="two">essay</td>	<td class="three">"The Poetic Principle"</td></tr>
+<td class="one">1849</td>	<td class="two">incomplete	</td><td class="three">"The Light-House"</td></tr>
+</table>
     </section>
     <footer>
         <nav><!-- TODO: Link pages properly -->
             <ul class="bottom-nav"><!-- TODO: Make this list be a horizontal navigation -->
-                <li><a href="">Home</a></li>
-                <li><a href="" class="active">About Poe</a></li>
-                <li><a href="">Interpretation</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-poe.html" class="active">About Poe</a></li>
+                <li><a href="Interpretation.html">Interpretation</a></li>
             </ul>
         </nav>
         <p>&copy;2015 Jane Student</p>

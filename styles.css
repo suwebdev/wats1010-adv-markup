@@ -1,1 +1,120 @@
 /* Styles for the Advanced Markup assignment. */
+
+body {
+width: 1000px; height: 100%; font-family: Arial, Helvetica, San-serif; size: 12px;
+}
+
+#content {
+background-color: #fff; width: 625px;
+}
+.caption {
+clear: left; font-weight: bold;
+}
+aside {
+float: right;
+}
+
+#sidebar {
+
+background-color: #eee;
+text-align: left;
+float: right;
+width: 300px; height: 100%;
+padding: 1em;
+ }
+ .bio-photo {
+ float: left; margin-top: 0px; margin-right: 5px;
+ }
+ #selected_works {
+ width: 650px; height: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+
+  border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+ }
+
+ h1 a{
+ text-decoration: none;
+ }
+.th {
+font-weight: bold;
+}
+ .one {
+ width: 100px;
+ }
+
+ .two {
+ width: 200px;
+ }
+
+ .three {
+ width: 300px;
+ }
+nav{
+    background-color: #CCC;
+	Font-color: #fff; font-weight: bold;
+	border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.top-nav li{
+    display:inline; text-decoration: none;
+}
+.top-nav a{
+    display:inline-block;
+    padding:10px;
+	text-decoration: none;
+}
+.top-nav a:active{
+    color: #ffffff;
+}
+.top-nav a:visited{
+    color: purple;
+}
+.top-nav a:hover{
+    color: red; text-decoration: none;
+}
+
+.bottom-nav ul{
+background-color: #fff;
+}
+
+.bottom-nav li{
+background-color: none; display: inline; padding: .2em 1em; text-decoration: none;
+}
+
+ #content {
+ font-family: areal, verdana, san-serif; font-size: 18px;
+ }
+ .poem  li{
+  list-style: none;
+
+  }
+  .smalltext {
+  background-color: #CCC;
+  }
+
+  .social li{
+    background-color: #333; display: inline;
+
+  }
+  .social li a{
+    color: white; font-weight: bold; padding: 5px; text-decoration: none;
+
+  }
+.buttons li {
+  list-style: none; display: inline;
+}
+.buttons li a{
+  padding: 5px;
+}
+.buttons li img {
+  float: left;
+}
