@@ -51,6 +51,7 @@ stretch goals:
 * Use ``background`` and ``border`` attributes to make a "navbar" look for your
   navigation, and use the ``:hover`` pseudoselector to make the navbar react
   when a user puts their mouse over a menu item.
+* Automatically load the CSV file?
 
 Tips
 ----
